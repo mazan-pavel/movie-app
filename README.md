@@ -5,6 +5,7 @@
 1. VUE.JS
 1. Bootstrap-vue
 
+Сcылка на firebase - [Приложение](https://movie-app-4f288.web.app/)
 
 ***
 Что реализовано:
