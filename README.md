@@ -1,24 +1,34 @@
-# movies_app
+# Movie APP - Топ 250 фильмов IMDB
 
-## Project setup
+Приложение каталог фильмов топ 250 по версии IMDB и вывод информации по ним. 
+Стэк : 
+1. VUE.JS
+1. Bootstrap-vue
+
+
+***
+Что реализовано:
+
+- [x] Вывод топ 250 фильмов
+- [x] Пагинация по 12 фильмов
+- [x] Поиск
+- [x] Вывод подробной информации о фильме
+- [x] Возможность удалить фильм из списка
+
+***
+## Установка зависимостей
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запустить сервер в режиме разработки
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Компилировать билд
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,12 +1,20 @@
 import Vue from "vue";
 import Vuex from "vuex";
-
+import movies from "./modules/moves"
+import loader from "./modules/loader"
+import notifications from "./modules/notifications"
 Vue.use(Vuex);
 
-export default new Vuex.Store({
+const store = new Vuex.Store({
   state: {},
   getters: {},
   mutations: {},
   actions: {},
-  modules: {},
+  modules: {
+    movies,
+    loader,
+    notifications,
+  },
 });
+
+export default store;
